@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#061b2a">
+  <meta name="description" content="S&L Transport – zuverlässiger Partner für Kühltransporte, Lebensmitteltransporte, Expresslieferungen und nationale sowie internationale Transporte.">
+  <title>S&amp;L Transport | Lebensmittel- &amp; Kühltransporte</title>
+  <style>
+    :root{--navy:#061b2a;--navy2:#0b2a3a;--panel:#103449;--orange:#f47721;--mint:#a9e8e1;--white:#f7fbfc;--muted:#b8cbd2;--line:rgba(255,255,255,.13);--max:1120px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--navy);color:var(--white);font:16px/1.6 Arial,Helvetica,sans-serif}a{color:inherit;text-decoration:none}.wrap{width:min(var(--max),calc(100% - 40px));margin:auto}
+    .hero{overflow:hidden;background:radial-gradient(ellipse at 79% 44%,#1a5164 0,transparent 40%),linear-gradient(125deg,#061722,#09293a 72%,#0c3546);position:relative}
+    .nav{height:86px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}.brand{display:flex;gap:12px;align-items:center;font-weight:800;letter-spacing:-.04em;font-size:25px}.brand-mark{width:47px;height:34px;color:var(--orange)}.brand small{font-size:12px;letter-spacing:.12em;margin-left:5px}.nav-contact{font-size:14px;color:var(--mint);font-weight:bold}
+    .hero-grid{display:grid;grid-template-columns:1fr 1.08fr;align-items:center;gap:24px;min-height:510px;padding:54px 0 66px}.eyebrow{color:var(--mint);font-size:13px;font-weight:700;letter-spacing:.16em;text-transform:uppercase}.hero h1{font-size:clamp(42px,6.5vw,72px);line-height:1.02;letter-spacing:-.045em;margin:15px 0 19px;max-width:620px}.hero h1 em{color:var(--orange);font-style:normal}.intro{font-size:18px;color:#d0e0e5;max-width:530px;margin:0 0 30px}.actions{display:flex;gap:12px;flex-wrap:wrap}.btn{display:inline-flex;align-items:center;justify-content:center;min-height:50px;padding:0 22px;border-radius:7px;font-weight:800;transition:transform .18s,background .18s}.btn:hover{transform:translateY(-2px)}.btn-primary{background:var(--orange);color:#1b130e}.btn-secondary{border:1px solid rgba(255,255,255,.55);color:var(--white)}
+    .truck-art{position:relative;min-height:340px;display:grid;place-items:center}.truck-art:before{content:"";position:absolute;width:95%;height:150px;bottom:30px;left:3%;background:linear-gradient(180deg,rgba(36,119,136,.25),transparent);filter:blur(22px);border-radius:50%}.truck{width:100%;max-width:560px;position:relative;filter:drop-shadow(0 24px 22px rgba(0,0,0,.32))}.snow{position:absolute;color:var(--mint);font-size:30px;opacity:.75}.s1{top:28px;right:18%}.s2{top:92px;right:7%;font-size:21px}.s3{top:117px;left:4%;font-size:19px}
+    .trust{background:var(--mint);color:#062533}.trust-row{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap;padding:16px 0;font-weight:700}.trust span:before{content:"✓";color:#eb6e1e;margin-right:9px}
+    section{padding:78px 0}.section-head{max-width:650px;margin-bottom:34px}.kicker{font-size:12px;letter-spacing:.15em;text-transform:uppercase;color:var(--orange);font-weight:800}.section-head h2{font-size:clamp(30px,4vw,43px);letter-spacing:-.035em;line-height:1.13;margin:8px 0 12px}.section-head p{margin:0;color:var(--muted)}.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.card{background:linear-gradient(145deg,var(--navy2),#0a2635);border:1px solid var(--line);border-radius:12px;padding:24px;min-height:210px}.icon{display:grid;place-items:center;width:48px;height:48px;border-radius:10px;background:rgba(169,232,225,.12);color:var(--mint);font-size:26px;margin-bottom:17px}.card h3{margin:0 0 8px;font-size:19px;line-height:1.25}.card p{margin:0;color:var(--muted);font-size:15px}
+    .how{background:#0a2635}.how-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.step{border-top:1px solid var(--line);padding:22px 4px 0}.num{font-size:40px;font-weight:800;line-height:1;color:var(--orange);margin-bottom:14px}.step h3{margin:0 0 7px}.step p{margin:0;color:var(--muted)}
+    .coverage{display:flex;align-items:center;justify-content:space-between;gap:30px;padding:28px 30px;border:1px solid var(--line);border-radius:13px;background:linear-gradient(120deg,#0c3041,#102c3c)}.coverage h2{font-size:27px;line-height:1.15;margin:0 0 8px}.coverage p{color:var(--muted);margin:0;max-width:680px}.coverage-badge{flex:none;border:1px solid rgba(169,232,225,.5);border-radius:50%;width:104px;height:104px;display:grid;place-items:center;text-align:center;color:var(--mint);font-size:14px;font-weight:800;line-height:1.2}
+    .cta{background:linear-gradient(125deg,#0c3447,#0c2635);text-align:center;padding:67px 0}.cta h2{font-size:clamp(30px,4vw,43px);margin:0 0 10px;letter-spacing:-.03em}.cta p{color:var(--muted);margin:0 auto 24px;max-width:560px}.contact-links{display:flex;gap:18px;justify-content:center;flex-wrap:wrap;margin-top:20px;color:#d5e2e6}.contact-links a{border-bottom:1px solid rgba(169,232,225,.45)}
+    footer{padding:23px 0;color:#91a8b1;font-size:13px;border-top:1px solid var(--line)}.footer-row{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+    @media(max-width:850px){.hero-grid{grid-template-columns:1fr;padding-top:56px;gap:0}.truck-art{min-height:260px;max-width:600px;margin:-8px auto 0}.grid{grid-template-columns:repeat(2,1fr)}.coverage{align-items:flex-start}}
+    @media(max-width:560px){.wrap{width:min(var(--max),calc(100% - 30px))}.nav{height:72px}.nav-contact{font-size:12px}.brand{font-size:21px}.brand-mark{width:38px}.hero-grid{padding:45px 0 38px;min-height:auto}.hero h1{font-size:46px}.intro{font-size:16px}.truck-art{min-height:205px}.trust-row{justify-content:flex-start;gap:9px 20px;font-size:14px}.trust-row span{width:calc(50% - 10px)}section{padding:56px 0}.grid{grid-template-columns:1fr}.card{min-height:0}.how-grid{grid-template-columns:1fr;gap:24px}.coverage{padding:22px;gap:15px}.coverage-badge{width:78px;height:78px;font-size:11px}.coverage h2{font-size:23px}.cta{padding:55px 0}.footer-row{display:block}.footer-row span{display:block;margin:4px 0}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
+  </style>
+</head>
+<body>
+  <header class="hero" id="start">
+    <div class="wrap">
+      <nav class="nav" aria-label="Hauptnavigation">
+        <a class="brand" href="#start" aria-label="S&L Transport Startseite">
+          <svg class="brand-mark" viewBox="0 0 100 65" aria-hidden="true"><path fill="currentColor" d="M3 15h49v8H3zm0 14h40v7H3zm54-13h15c9 0 13 6 16 13l9 3v18H88a12 12 0 0 1-24 0H43V24h14zm8 7v14h23l-5-11c-2-2-4-3-7-3zm-51 30h37a12 12 0 0 1 24 0h12v-9H54V24H43v29h-5a12 12 0 0 1-24 0zm49 0a5 5 0 1 0 10 0 5 5 0 0 0-10 0zm-44 0a5 5 0 1 0 10 0 5 5 0 0 0-10 0z"/></svg>
+          <span>S&amp;L<small>TRANSPORT</small></span>
+        </a>
+        <a class="nav-contact" href="mailto:hallo.sweetdreams@gmail.com">hallo.sweetdreams@gmail.com</a>
+      </nav>
+      <div class="hero-grid">
+        <div>
+          <div class="eyebrow">Ihr zuverlässiger Partner für Transport &amp; Logistik</div>
+          <h1>Frische Ware.<br><em>Pünktlich</em> am Ziel.</h1>
+          <p class="intro">S&amp;L Transport bringt Ihre Fracht sicher ans Ziel – mit zuverlässigen Transportlösungen in Deutschland und Europa.</p>
+          <div class="actions"><a class="btn btn-primary" href="#kontakt">Angebot anfragen&nbsp; →</a><a class="btn btn-secondary" href="#leistungen">Unsere Leistungen</a></div>
+        </div>
+        <div class="truck-art" aria-label="Illustration eines Kühltransporters">
+          <span class="snow s1">❄</span><span class="snow s2">❄</span><span class="snow s3">❄</span>
+          <svg class="truck" viewBox="0 0 620 350" role="img" aria-label="Moderner Kühltransporter auf der Straße">
+            <defs><linearGradient id="trailer" x1="0" x2="1"><stop stop-color="#e8f1f2"/><stop offset="1" stop-color="#aebec4"/></linearGradient><linearGradient id="cab" x1="0" x2="1"><stop stop-color="#dce8eb"/><stop offset="1" stop-color="#81949b"/></linearGradient></defs>
+            <path d="M24 285h560" stroke="#7bd4d2" stroke-width="4" opacity=".5"/><path d="M54 312h140M390 312h150" stroke="#f47721" stroke-width="3" opacity=".8"/>
+            <path d="M76 97q0-16 17-16h310q14 0 14 16v153H76z" fill="url(#trailer)" stroke="#314957" stroke-width="5"/><path d="M91 101h295" stroke="#fff" stroke-width="6" opacity=".55"/><path d="M98 124h278" stroke="#8299a0" stroke-width="2" opacity=".34"/>
+            <path d="M417 145h70q25 0 39 22l43 58v27H411V158q0-13 6-13z" fill="url(#cab)" stroke="#314957" stroke-width="5"/><path d="M443 159h39q18 0 27 15l20 31h-86z" fill="#173544"/><path d="M540 214h22l14 14h-36z" fill="#f47721"/><path d="M418 230h148v22H418z" fill="#f47721"/><path d="M87 251h494" stroke="#263f4c" stroke-width="10"/>
+            <circle cx="169" cy="260" r="37" fill="#061722" stroke="#85999e" stroke-width="7"/><circle cx="169" cy="260" r="13" fill="#b7c7ca"/><circle cx="465" cy="260" r="37" fill="#061722" stroke="#85999e" stroke-width="7"/><circle cx="465" cy="260" r="13" fill="#b7c7ca"/><circle cx="544" cy="260" r="37" fill="#061722" stroke="#85999e" stroke-width="7"/><circle cx="544" cy="260" r="13" fill="#b7c7ca"/>
+            <text x="113" y="197" fill="#0d3243" font-family="Arial,sans-serif" font-weight="700" font-size="23">❄ S&amp;L TRANSPORT</text>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="trust"><div class="wrap trust-row"><span>Kühltransporte</span><span>Lebensmitteltransporte</span><span>Expresslieferungen</span><span>Deutschland &amp; Europa</span></div></div>
+
+  <main>
+    <section id="leistungen"><div class="wrap">
+      <div class="section-head"><div class="kicker">Unsere Leistungen</div><h2>Was wir für Sie übernehmen</h2><p>Ob frische Lebensmittel oder eilige Fracht: Wir unterstützen Sie mit passenden Transportlösungen und persönlichem Kontakt.</p></div>
+      <div class="grid">
+        <article class="card"><div class="icon" aria-hidden="true">❄</div><h3>Kühltransporte</h3><p>Transport von Frische- und Tiefkühlware mit Blick auf die Anforderungen Ihrer Ware.</p></article>
+        <article class="card"><div class="icon" aria-hidden="true">▣</div><h3>Lebensmitteltransporte</h3><p>Sichere und sorgfältig geplante Transporte für Lebensmittel und den Handel.</p></article>
+        <article class="card"><div class="icon" aria-hidden="true">◷</div><h3>Expresslieferungen</h3><p>Wenn es eilt, stimmen wir die Abholung und Zustellung direkt mit Ihnen ab.</p></article>
+        <article class="card"><div class="icon" aria-hidden="true">◎</div><h3>Nationale &amp; internationale Transporte</h3><p>Zuverlässige Routen innerhalb Deutschlands und in europäische Länder.</p></article>
+      </div>
+    </div></section>
+    <section class="how"><div class="wrap">
+      <div class="section-head"><div class="kicker">Einfach zusammenarbeiten</div><h2>So läuft der Start</h2><p>Von Ihrer ersten Nachricht bis zur abgestimmten Tour.</p></div>
+      <div class="how-grid">
+        <article class="step"><div class="num">01</div><h3>Anfrage</h3><p>Sie nennen uns Ware, Menge, Strecke und gewünschten Zeitraum.</p></article>
+        <article class="step"><div class="num">02</div><h3>Abstimmung &amp; Angebot</h3><p>Wir besprechen die Anforderungen und erstellen ein passendes Angebot.</p></article>
+        <article class="step"><div class="num">03</div><h3>Transport</h3><p>Nach der Vereinbarung planen wir die Tour und halten Sie auf dem Laufenden.</p></article>
+      </div>
+    </div></section>
+    <section><div class="wrap"><div class="coverage">
+      <div><div class="kicker">Unser Einsatzgebiet</div><h2>Regional verwurzelt.<br>In Deutschland &amp; Europa unterwegs.</h2><p>Der Sitz von S&amp;L Transport ist in Lübbecke. Sprechen Sie uns an – gemeinsam klären wir Route, Zeit und Anforderungen Ihres Transports.</p></div>
+      <div class="coverage-badge">S&amp;L<br>DEUTSCHLAND<br>&amp; EUROPA</div>
+    </div></div></section>
+    <section class="cta" id="kontakt"><div class="wrap">
+      <div class="kicker">Kontakt</div><h2>Sprechen wir über Ihren Transport.</h2><p>Schicken Sie uns die wichtigsten Angaben zu Ihrer Tour. Wir melden uns bei Ihnen, um die nächsten Schritte zu besprechen.</p>
+      <a class="btn btn-primary" href="mailto:sl.transport2023@gmail.com?subject=Anfrage%20Transport%20%7C%20S%26L%20Transport">E-Mail schreiben&nbsp; →</a>
+      <div class="contact-links"><a href="mailto:sl.transport2023@gmail.com">sl.transport2023@gmail.com</a></div>
+    </div></section>
+  </main>
+  <footer><div class="wrap footer-row"><span>© 2026 S&amp;L Transport · Transport &amp; Logistik</span><span>Lübbecke · Deutschland &amp; Europa</span><span><a href="mailto:sl.transport2023@gmail.com">sl.transport2023@gmail.com</a></span></div></footer>
+</body>
+</html>
